@@ -1,0 +1,187 @@
+/* General Styling */
+body {
+  width: 1200px;
+  height: 600px;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0073e6;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-btn {
+  background: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #0073e6;
+  border-radius: 5px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background: #005bb5;
+  color: white;
+}
+
+.nav-btn.active {
+  background: #004a99;
+  color: white;
+}
+
+/* Tab Content */
+.tab-content {
+  display: none;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.tab-content:first-child {
+  display: block;
+}
+
+/* Form Fields */
+input, select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Dropdown Styling */
+select {
+  background: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  background: #0073e6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: #005bb5;
+}
+
+/* Job Results */
+#job-results {
+  margin-top: 15px;
+}
+
+.job-item {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-item h3 {
+  margin: 0;
+  color: #0073e6;
+}
+
+.job-item p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.job-item a {
+  text-decoration: none;
+  color: white;
+  background: #0073e6;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.job-item a:hover {
+  background: #005bb5;
+}
+
+/* Skills Section Styling */
+#skill-list {
+  list-style-type: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+#skill-list li {
+  background: #f1f1f1;
+  padding: 5px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 3px;
+}
+
+#skill-input {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+#add-skill-btn {
+  background-color: #0073e6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+  margin-top: 5px;
+}
+
+#add-skill-btn:hover {
+  background: #005bb5;
+}
+
+ul li button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+ul li button:hover {
+  background: darkred;
+}
